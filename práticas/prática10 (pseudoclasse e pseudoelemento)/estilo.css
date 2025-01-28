@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: #8daba5;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+#rickroll {
+    text-decoration: none;
+    color: #86a5b0;
+}
+
+#rickroll:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#rickroll::after {
+    content: '[link]';
+    font-size: 0.7em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h3 {
+    text-decoration: underline;
+}

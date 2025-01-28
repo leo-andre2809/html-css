@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+body {
+    background-color: #f19ab7;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 55%;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+h1#principal {
+    font: italic 2em Dela Gothic One, serif;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: #6e2531;
+}
+
+.basico {
+    color: green;
+}
+
+.medio {
+    color: orange;
+    text-align: center;
+}
+
+.avancado {
+    color: red;
+    text-align: right;
+}

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+
+body {
+    background-color: #caf0ba;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #27462C, #64A94C);
+    margin: 0px;
+    padding: 20px 0px 3px 0px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.456);
+}
+
+#titulodosite {
+    text-align: center;
+}
+
+header > p {
+    margin: auto;
+    width: 300px;
+    padding: 0px 0px 30px 0px;   
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: #caf0ba;
+}
+
+main {
+    background-color: white; 
+    margin: 0px 150px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+#tituloprincipal {   
+    text-indent: 15px;
+    font: italic normal 2em idroid, serif;
+    margin: 10px 10px;
+    color: #27462C;
+}
+
+article {
+    margin: auto;
+}
+
+.subtitulo {
+    text-indent: 15px;
+    font: italic normal 1.3em idroid, serif;
+    margin: 10px 10px;
+    background-image: linear-gradient(to right, #caf0ba, #ffffff);
+    color: #27462C;
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+aside > #tituloextra {
+    background-color: #27462C;
+}
+
+#artigolista {
+    padding: 10px;
+    background-color: #64A94C;
+    border-radius: 0px 0px 20px 20px;
+}
+
+aside > h2 {
+    text-indent: 10px;
+    padding: 5px;
+    margin: 0px;
+    color: white;
+    background-color: #27462C;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+
+}
+
+footer > p {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+
