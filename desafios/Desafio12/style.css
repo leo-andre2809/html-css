@@ -16,11 +16,13 @@ header {
     text-align: center;
     padding: 60px;
 
-    margin-bottom: 100px;
+    
 }
 
 header h1 {
     font: normal 6vw Ultra, serif;
+    font-variant: small-caps;
+    letter-spacing: 0.3vw;
 }
 
 header p {
@@ -52,13 +54,17 @@ pre {
     line-height: 1.5em;
 }
 
+section {
+    padding: 10vh 0;
+}
+
 .imagem {
     background-position: 50%;
     background-size: cover;
     background-attachment: fixed;
 
-    padding: 50px 0px;
-    margin: 50px 0px;
+    
+    
 
     box-shadow: inset 0px 5px 12px 0px #00000070
 }
@@ -67,8 +73,7 @@ pre {
     color: white;
     text-shadow: 1px 1px 1px #00000089;
 
-    padding: 10px;
-    margin: 25px;
+    
 
     border-radius: 10px;
 
