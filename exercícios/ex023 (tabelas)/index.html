@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+    <style>
+        :root {
+            --cinza: #c8c8c8;
+            --azul: rgb(134, 164, 214);
+        }
+
+        td {
+            border: 2px solid rgba(0, 0, 0, 0.612);
+            text-align: center;
+            vertical-align: top;
+            
+        }
+        
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+
+            margin: auto;
+
+            width: 300px;
+            height: 200px;
+            
+            border-collapse: collapse;
+        }
+
+        .g1 {
+            background-color: var(--cinza);
+        }
+
+        .g2 {
+            background-color: var(--azul);
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+
+    <table>
+        <tr class="g1">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="g2">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="g1">
+            <TD>A3</TD>
+            <TD>B3</TD>
+            <TD>C3</TD>
+        </tr>
+        <tr class="g2">
+            <TD>A4</TD>
+            <TD>B4</TD>
+            <TD>C4</TD>
+        </tr>
+    </table>
+</body>
+</html>
