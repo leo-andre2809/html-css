@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: lightgrey;
+        }
+
+        caption {
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        th, td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        .nome {
+            width: 160px;
+            text-align: left;
+        }
+
+        .idade {
+            text-align: right;
+        }
+
+        colgroup > col:nth-child(2n) {
+            background-color: #fdff84;
+        }
+
+        colgroup > col:nth-child(2n-1) {
+            background-color: rgb(123, 185, 244);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <caption>Tabela de cadastro</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="nome">Ana Maria</td>
+                <td>F</td>
+                <td class="idade">25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td class="nome">Beatriz Oliveira</td>
+                <td>F</td>
+                <td class="idade">27</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td class="nome">Luiz Roberto</td>
+                <td>M</td>
+                <td class="idade">39</td>
+                <td>Pintor</td>
+            </tr>
+            <tr>
+                <td class="nome">Marcos Antônio</td>
+                <td>M</td>
+                <td class="idade">34</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td class="nome">Rodrigo Moraes</td>
+                <td>F</td>
+                <td class="idade">29</td>
+                <td>Programador</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
