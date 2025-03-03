@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       #cadastro {
+        
+        margin: 15px;
+
+        background-color: rgb(154, 140, 241);
+        width: 200px;
+        height: 120px;
+
+        border: 2px solid black;
+
+        padding: 10px;
+
+       }
+
+       .forminput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+       }
+
+       input {
+        border: 1px solid black;
+
+        margin-left: 5px;
+
+        
+       }
+
+       .button {
+        width: 70px;
+       }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form id="cadastro" action="" method="post">
+    
+        <div class="forminput">
+            <label for="iduser">Usuário:</label>
+            <input type="text" name="user" id="iduser" size="15" placeholder="Digite seu usuário" minlength="5" maxlength="15">
+        </div>
+            <br>
+        <div class="forminput">
+            <label for="">Senha:</label>
+            <input type="password" name="pw" id="idpw" required size="15" placeholder="Digite sua senha" minlength="10" maxlenght
+            ="20">
+        </div>
+        <br>
+        <div class= "forminput">
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+        </div>
+    </form>
+</body>
+</html>

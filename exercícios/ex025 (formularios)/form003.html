@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #idmedia {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="idnome">Nome:</label>
+            <input type="text" name="nome" id="idnome" required maxlength="70" placeholder="Nome completo" autocomplete="name">
+        </p>
+
+        <p>
+            <label for="idmedia">Média:</label>
+            <input name="media" id="idmedia" type="number" min="0" max="10" step="0.1" required placeholder="0 à 10">
+        </p>
+
+        <p>
+            <label for="idmes">Período Letivo:</label>
+            <input type="month" name="mes" id="idmes">
+        </p>
+
+        <p>
+            <label for="idhora">Hora da prova:</label>
+            <input name="hora" id="idhora" type="time">
+        </p>
+
+        <p>
+            <label for="iddata">Data de nascimento:</label>
+            <input name="data" id="iddata" type="date">
+        </p>
+
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
