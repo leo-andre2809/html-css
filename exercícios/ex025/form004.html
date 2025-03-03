@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form {
+        margin: 15px;
+       }
+
+       fieldset {
+        padding: 15px;
+       }
+    </style>
+</head>
+<body>
+    <h1>Teste com formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados para contato</legend>
+            <div>
+                <label for="idnome">Nome:</label>
+                <input name="nome" id="idnome" type="name" required placeholder="Nome Completo">
+            </div>
+            <br>
+            <div>
+                <label for="idemail">E-mail:</label>
+                <input name="email" id="idemail" type="email" required placeholder="Endereço de e-mail">
+            </div>
+            <br>
+            <div>
+                <label for="idtel">Telefone:</label>
+                <input type="tel" name="tel" id="idtel" required placeholder="55 xxxxx-xxxx">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
