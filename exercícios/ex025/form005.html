@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #esporte > label:hover {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com formulário - 05</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset id="sexo">
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sex" id="idm" checked value="M"> <label for="idm">Mas</label> <br> 
+            <input name="sex" id="idf" type="radio" value="F"> <label for="idf">Fem</label> <br>
+            <input type="radio" name="sex" id="idna" value="N/A"> <label for="idna">N/A</label>
+            
+
+        </fieldset>
+
+        <fieldset id="esporte">
+            <legend>Esportes favoritos</legend>
+
+            <input type="checkbox" name="fut" id="idfut"> <label for="idfut">Futebol</label>
+            <br>                    
+            <input type="checkbox" name="bas" id="idbas"> <label for="idbas">Basquete</label>
+            <br>                
+            <input type="checkbox" name="vol" id="idvol"> <label for="idvol">Vôlei</label>
+            <br>                
+            <input type="checkbox" name="nat" id="idnat"> <label for="idnat">Natação</label>
+        </fieldset>
+        <br>
+        <div class="button">
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+</body>
+</html>
