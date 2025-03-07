@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #idmsg {
+            resize: vertical;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elementos de formulário</h1>
+    <form action="cadastro.php" method="get">
+
+        <div>
+            <label for="idest">Estado</label>
+            <select name="est" id="idest" required>
+                    <option selected value="None" disabled>--Selecione seu estado--</option>
+                <optgroup label="Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                    </optgroup>
+                    <optgroup label="Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    </optgroup>
+            </select>
+        </div> 
+        <br>
+        <div>
+            <label for="idprof">Profissão</label>
+            <input type="text" name="prof" id="idprof" placeholder="Digite sua profissão" list="listaprof">
+            <datalist id="listaprof">
+                <option>Contador</option>
+                <option>Desenvolvedor</option>
+                <option>Caixa</option>
+                <option>Fachineiro</option>
+                <option>Professor</option>
+                <option>Motorista</option>
+                <option>Empresário</option>
+                <option>Vendedor</option>
+                <option>Arquiteto</option>
+                <option>Engenheiro</option>
+            </datalist>
+        </div> 
+        <br>
+        <div>
+            <label style="display: block;" for="idmsg">Mande sua mensagem (Máximo de 1000 caractéres)</label>
+            <textarea name="msg" id="idmsg" maxlength="1000" placeholder="--Sua mensagem aqui--"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+        
+    </form>
+</body>
+</html>
