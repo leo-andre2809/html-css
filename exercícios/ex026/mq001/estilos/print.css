@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    display: none;
+}
+
+main {
+    line-height: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
