@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#tabela {
+    border: 1px solid black;
+    padding: 20px;
+
+    background-color: rgb(255, 197, 206);
+}
+
+caption {
+    font: italic lighter 1.3em 'Times New Roman', Times, serif;
+    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+table  td,th {
+    border: 1px solid black;
+    width: 20vw;
+    height: 27px;
+}
+
+.pos {
+    width: 5vw;
+}
+
+td.pos {
+    font-weight: bold;
+    text-indent: 5px;
+}
+
+td.mun {
+    text-indent: 10px;
+}
+
+.num {
+    text-align: right;
+    
+}
+
+th.num {
+    text-align: center;
+}
+
+td.num {
+    padding-right: 10px;
+}
+
