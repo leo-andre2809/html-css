@@ -2,11 +2,16 @@ header {
     background-image: url(../imagens/imgheadergrande.jpeg);
 }
 
-header > nav > a {
+.menu {
     display: inline-block;
     margin: 0px 15px;
 
-    background-color: transparent;
+    font-size: 1.3em;
+}
+
+.menu:hover {
+    color: #5238ea;
+    background-color: white;
 }
 
 #sono {

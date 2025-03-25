@@ -1,0 +1,15 @@
+.menu {
+    display: block;
+    width: 80px;
+
+    background-color: #FDC25C;
+
+    border-radius: 10px;
+}
+
+.menu:hover {
+    color: #FDC25C;
+    background-color: white;
+
+    
+}
