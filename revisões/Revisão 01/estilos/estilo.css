@@ -100,3 +100,26 @@ main > p,h2,h3 {
 #sonomaior {
     display: none;
 }
+
+#comentarios {
+    margin: 40px 10vw;
+
+    padding-bottom: 30px;
+}
+
+#iduser {
+    display: block;
+    margin: 20px 0;
+
+    height: 25px;
+}
+
+#idcmt {
+    width: 60vw;
+    height: 100px;
+}
+
+#botoes {
+    margin-top: 10px;
+}
+
