@@ -115,6 +115,7 @@ main > p,h2,h3 {
 }
 
 #idcmt {
+    resize: vertical;
     width: 60vw;
     height: 100px;
 }
